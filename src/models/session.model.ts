@@ -20,6 +20,6 @@ const SessionSchema = new mongoose.Schema(
     { timestamps: true }
 );
 
-const SessionModel = mongoose.model("Session", SessionSchema);
+const SessionModel = mongoose.model<SessionDocument>("Session", SessionSchema);
 
 export default SessionModel;
