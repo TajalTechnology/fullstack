@@ -2,7 +2,7 @@ export default {
   port: 1337,
   dbUri: "mongodb://localhost:27017/fullstack",
   saltWorkFactor: 10,
-  accessTokenTtl: "115m",
+  accessTokenTtl: "-1",
   refreshTokenTtl: "1y",
   publicKey: `-----BEGIN PUBLIC KEY-----
 MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXzZerpx9qdaelwt1U7NCpWXQK
